@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+            font-family: Verdana, Geneva, Arial, sans-serif;
+            font: 15px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+
+    <title>Ethan G. Sabelka</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img src="./images/profile.jpg" width="400" height="500" alt="Profile Picture">
+            <h1>Ethan G. Sabelka</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown">Software Engineer</p>
+            <p>Studying Software Engineering with a Minor in Cybersecurity at Iowa State University.</p>
+            <p>
+                Achieved top 2% of my class Fall 2024. Dean's list Fall 2023/2024 and Spring 2024.
+                Currently working part time with Iowa State Extension and Outreach as part of the IT
+                Hotline team.
+            </p>
+        </div>
+    </section>
+    <hr>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./images/monalisa.jpg" width="300" height="400" alt="Mona Lisa">
+                <h3>Java Decoder</h3>
+                <p>Created a decoder in Java that takes inputs from a file. For example I decoded a picture of the Mona
+                    Lisa First, the decoder gets the encoding scheme and creates a binary tree for decoding. 
+                    The program then decodes the message in the file using the tree created earlier. 
+                    As an extra challenge, I created my tree iteratively as opposed to recursively, for some extra credit.
+                </p>
+                <h3>Youtube -> mp3 Converter</h3>
+                <p> Created a youtube -> mp3 converter during the summer of 2024. Created the program in C#.
+                    Created for personal use as most online convereters are either limited, or contain viruses.
+                    Uses Youtube.dl to download the video as an mp3 or an mp4.
+                </p>
+    </section>
+    <hr>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at esabelka@iastate.edu (School Email)</p>
+            <p>Or etsabelka@gmail.com (Work Email)</p>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <p> &copy; 2025 Ethan G. Sabelka</p>
+    </footer>
+</body>
+
+</html>
